@@ -1,0 +1,32 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: darkblue;
+    font-size: 60px;
+    font-family: 'Comic Sans Ms';
+    text-align: center;
+  }
+
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia;
+}
+
+#ya {
+  color: orange;
+}
+
+#n {
+  text-align: right;
+}
+
+#oke {
+  color: white; text-decoration: none;
+}
