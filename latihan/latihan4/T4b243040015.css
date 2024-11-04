@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+
+body{
+    font: 16px / 28px arial,sans-serif;
+	background-color: #CE1000;
+    color: #000000;
+	background-size: 50%;
+	background-image: url(putih.jpg);
+}
+
+h1 {
+	background-color: #CE1000;
+	padding: 2%;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff ;
+}
+
+.header{
+	padding: 10px;
+	padding-bottom: 5px;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center; 
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;	
+}
+
+#oke {
+	text-align: center;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px ;
+	margin-right: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+
+.header a:hover{
+	background-color: salmon;
+	color: white;
+}
+
+.hero{
+	height: 320px;
+	background-image:url(IMG_5984.png) ;
+	background-size: contain;
+	border-bottom: 5px solid #CE1000;
+	border-top: 5px solid #CE1000;
+	background-position: 10% ;
+}
+
+.content{
+	padding: 20px; 
+}
+
+.content .penulis{
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.content .penulis a{
+	color: salmon;
+	text-decoration: none;
+}
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 14px ;
+}
+
+.main img {
+	width: 350px;
+	height: 200px;
+
+}
+
+h2 {
+    font-weight: bold;
+font-size: 28px;
+}
+
+.sidebar {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main1 img {
+	width: 130px;
+	float: left;
+	padding-right: 10px;	
+}
+
+#n {
+	width: 250px;
+	float: left;
+	padding-left: 10px;
+}
+
+#y {
+	width: 230px;
+	float: left;
+	padding: 40px;
+}
+
+.sidebar p {
+	text-align: justify;
+	float: right;
+	padding-right: 10px;
+	font: 12px/18px ;
+}
+
+.x {
+	text-align: justify;
+}
+.main1 h3 {
+	font-weight: bold;
+}
+
+.footer :hover {
+	background-color:#CE1000;
+	color: black;
+}
+
+.aj {
+	background-color:#000000;
+	padding: 10px;
+	color: white;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
