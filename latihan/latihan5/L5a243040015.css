@@ -1,0 +1,104 @@
+/* style */
+body{
+    font: 16px / 28px arial,sans-serif;
+	background-color: rgb(248, 217, 248);
+    color: #000000;
+	background-size: 50%;
+}
+
+h1 {
+	background-color: purple;
+	padding: 2%;
+	text-shadow: 1px 1px 1px white;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: plum ;
+}
+
+.header{
+	padding: 10px;
+	padding-bottom: 5px;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center; 
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;	
+}
+
+
+.hero{
+	height: 320px;
+	background-image:url(L5/img/Tangled\ _\ Disney.jpg) ;
+	background-size: contain;
+	border-bottom: 5px solid purple;
+	border-top: 5px solid purple;
+	background-position: 115%;
+	background-size: auto;
+}
+
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 14px ;
+}
+
+.main img {
+	width: 500px;
+	height: 300px;
+}
+
+.sidebar {
+	width: 500px;
+	height: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main1 img {
+	width: 420px;
+	float: left;
+	padding-right: 10px;	
+	padding: 20px;
+}
+
+#n {
+	width: 250px;
+	float: right;
+	padding-left: 10px;
+}
+
+.sidebar p {
+	text-align: justify;
+	float: right;
+	padding-right: 10px;
+	font: 12px/18px ;
+}
+
+.main1, .x, .p {
+	text-align: justify;
+}
+
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
