@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouquet</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Irish+Grover&family=Jaro:opsz@6..72&family=Oswald:wght@200..700&family=Pacifico&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+        <div class="container">
+
+            <header class="header">
+                <div class="hero">
+                    <h2 class="heading">Shop</h2>
+                    <p class="sub-heading">Bunga & Bouquet</p>
+                </div>
+                <div class="features feature-1">
+                    <h4 class="price">IDR 150K</h4>
+                    <p class="item">Tulip</p>
+                </div>
+                <div class="features feature-2">
+                    <h4 class="price">IDR 150K</h4>
+                    <p class="item">Mawar</p>
+                </div>
+            </header>
+
+            <nav class="menu">
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="brand">
+                    <h1>Bouquet Bunga</h1>
+                </div>
+
+                <ul class="menu-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <section class="services">
+                <div class="service">
+                    <div class="icon">💻</div>
+                    <h3>Tutorial</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit explicabo vitae asperiores ducimus, dolorem corrupti.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="icon">🎓</div>
+                    <h3>Online Course</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit explicabo vitae asperiores ducimus, dolorem corrupti.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="icon">🎙️</div>
+                    <h3>Podcast</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit explicabo vitae asperiores ducimus, dolorem corrupti.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="icon">💐</div>
+                    <h3>flower</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit explicabo vitae asperiores ducimus, dolorem corrupti.
+                    </p>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <h2>Gallery</h2>
+                <img src="img/1.jpg" alt="" />
+                <img src="img/2.jpg" alt="" />
+                <img src="img/3.jpg" alt="" />
+                <img src="img/4.jpg" alt="" />
+                <img src="img/5.jpg" alt="" />
+                <img src="img/6.jpg" alt="" />
+                <img src="img/7.jpg" alt="" />
+                <img src="img/8.jpg" alt="" />
+                <img src="img/9.jpg" alt="" />
+                <img src="img/10.jpg" alt="" />
+            </section>
+        
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('slide');
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGallery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Irish+Grover&family=Jaro:opsz@6..72&family=Oswald:wght@200..700&family=Pacifico&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+        <div class="container">
+
+            <header class="header">
+                <div class="hero">
+                    <h2 class="heading">Gallery</h2>
+                    <p class="sub-heading">emtu</p>
+                </div>
+                <div class="features feature-1">
+                    <h4 class="price">Go to Yogya</h4>
+                    <p class="item"></p>
+                </div>
+                <div class="features feature-2">
+                    <h4 class="price">After Class BK</h4>
+                    <p class="item"></p>
+                </div>
+            </header>
+
+            <nav class="menu">
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="brand">
+                    <h1>About emtu</h1>
+                </div>
+
+                <ul class="menu-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <section class="services">
+                <div class="service">
+                    <div class="icon"><img src="img/enam.png" alt=""></div>
+                    <h3>Go To Yogyakarta</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ducimus temporibus corrupti amet a iure hic totam excepturi facilis nesciunt tempora eaque cum, optio, sapiente quam sit voluptas. Modi recusandae, laudantium tempore provident dolorum iste corrupti adipisci natus eum illo non cumque vitae in accusantium accusamus esse odit numquam? Ipsam.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="icon"><img src="img/pramuka.png" alt=""></div>
+                    <h3>Teachers Day</h3>
+                    <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nisi a numquam at blanditiis nostrum! Ab architecto exercitationem culpa autem natus repellendus quo nemo perferendis. Laboriosam sint velit in rem dolorem optio excepturi autem fugiat explicabo dolorum, natus cumque distinctio laudantium quisquam ipsam rerum adipisci possimus quaerat aliquam eius quo!
+                    </p>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <h2>Gallery</h2>
+                <img src="img/1 (1).jpeg" alt="" />
+                <img src="img/1 (2).jpeg" alt="" />
+                <img src="img/1 (3).jpeg" alt="" />
+                <img src="img/1 (4).jpeg" alt="" />
+                <img src="img/1 (5).jpeg" alt="" />
+                <img src="img/1 (6).jpeg" alt="" />
+                <img src="img/1 (7).jpeg" alt="" />
+                <img src="img/1 (8).jpeg" alt="" />
+                <img src="img/1 (9).jpeg" alt="" />
+                <img src="img/1 (10).jpeg" alt="" />
+                <img src="img/1 (11).jpeg" alt="" />
+                <img src="img/1 (12).jpeg" alt="" />
+            </section>
+        
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('slide');
+            });
+        </script>
+    </body>
+</html>
